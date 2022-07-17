@@ -1,0 +1,34 @@
+{
+  "name": "transaction-payment-splitting-service-tpss-",
+  "version": "1.0.0",
+  "description": "tpss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amaechi747/Transaction-Payment-Splitting-Service-TPSS-.git"
+  },
+  "keywords": [
+    "tpss"
+  ],
+  "author": "Amaechi Moses",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amaechi747/Transaction-Payment-Splitting-Service-TPSS-/issues"
+  },
+  "homepage": "https://github.com/Amaechi747/Transaction-Payment-Splitting-Service-TPSS-#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "http-errors": "^2.0.0",
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
